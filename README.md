@@ -109,55 +109,6 @@ Popular Discord management bots paywall essential features like interactive butt
 
 ---
 
-## 💻 Web Dashboard
-
-Recto includes a full-stack, glassmorphic Web Dashboard with **Discord OAuth2 authentication**:
-
-* **Server Discovery:** Automatically scans and lists all Discord servers where you have `Administrator` or `Manage Server` permissions.
-* **60 FPS Live Welcome Simulator:** Real-time HTML5 Canvas 2D simulator renders exact welcome card graphics as you type.
-* **1-Click Deployments:** Deploy button role panels, dropdown menus, and voice counter categories directly from the browser.
-* **Audit Center:** Review server configuration and permission statuses in real time.
-
----
-
-## 🛠️ Quickstart & Deployment
-
-### 1. Prerequisites
-* **Node.js:** v18.0.0 or higher
-* **Discord Bot Token & Client ID** ([Discord Developer Portal](https://discord.com/developers/applications))
-
-### 2. Installation
-```bash
-# Clone repository
-git clone https://github.com/your-username/recto.git
-cd recto
-
-# Install dependencies
-npm install
-```
-
-### 3. Environment Configuration
-Create a `.env` file in the root directory:
-```env
-DISCORD_TOKEN=your_bot_token_here
-CLIENT_ID=your_client_id_here
-CLIENT_SECRET=your_client_secret_here
-REDIRECT_URI=http://localhost:3000/api/auth/callback
-PORT=3000
-```
-
-### 4. Register Slash Commands
-```bash
-node src/deploy-commands.js
-```
-
-### 5. Launch Recto Engine & Web Dashboard
-```bash
-npm start
-```
-
----
-
 ## 📖 Complete Command Reference
 
 For the comprehensive list of all slash commands, options, syntax examples, and subcommands, view the [**COMMANDS.md**](COMMANDS.md) documentation.
