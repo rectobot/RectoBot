@@ -16,7 +16,6 @@
     <a href="#-key-features">Key Features</a> •
     <a href="COMMANDS.md">Command Manual</a> •
     <a href="#-benchmarks--performance">Benchmarks</a> •
-    <a href="#-web-dashboard">Web Dashboard</a> •
     <a href="#-quickstart--deployment">Quickstart</a>
   </p>
 
