@@ -1,6 +1,5 @@
 <div align="center">
   <br />
-  <img src="https://raw.githubusercontent.com/discord/discord-api-docs/main/images/discord_logo.svg" width="80" alt="Recto Logo" />
   <h1>⚡ RECTO</h1>
   <p><strong>The High-Performance, Next-Generation Discord Role & Community Automation Engine</strong></p>
 
@@ -20,11 +19,6 @@
   </p>
 
   <br />
-
-  <!-- Live Showcase Video Preview -->
-  <video src="./Rec.mp4" controls="controls" width="100%" style="max-width: 850px; border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.6);">
-    Your browser does not support the video tag.
-  </video>
 
   <br />
   <hr />
@@ -83,14 +77,6 @@ Popular Discord management bots paywall essential features like interactive butt
 ### 🛡️ 5. Real-Time Audit Logs & Security
 * **Structured System Audit:** Tracks and logs role grants, permission checks, channel updates, and error catches instantly.
 * **Instant DM Dispatcher:** Alerts administrators and members when temporary roles expire or cap limits are reached.
-
-<div align="center">
-  <br />
-  <img src="./logs.png" alt="Recto Audit Logging Engine" width="100%" style="max-width: 850px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 8px 30px rgba(0,0,0,0.5);" />
-  <br />
-  <sub>⚡ Real-time Audit Logging & Execution Pipeline</sub>
-  <br />
-</div>
 
 ---
 
